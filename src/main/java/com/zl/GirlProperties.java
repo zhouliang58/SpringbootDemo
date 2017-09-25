@@ -6,11 +6,13 @@ import org.springframework.stereotype.Component;
 /**
  * Created by zhouliang on 2017-09-22.
  */
+
 @Component
 @ConfigurationProperties(prefix = "girl")
 public class GirlProperties {
 
     private String cupSize;
+
     private Integer age;
 
     public String getCupSize() {

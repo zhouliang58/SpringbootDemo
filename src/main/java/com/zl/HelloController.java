@@ -21,8 +21,8 @@ public class HelloController {
     @Value("${content}")
     private String content;
 
-    @RequestMapping(value = "/hello",method = RequestMethod.GET)
-    public String say(){
-        return content+" "+girlProperties.getCupSize()+" "+age;
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    public String say() {
+        return content + " " + girlProperties.getCupSize() + " " + age;
     }
 }
