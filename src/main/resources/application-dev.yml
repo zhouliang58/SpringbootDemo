@@ -7,4 +7,3 @@ girl:
 cupSize1: B
 age1: 20
 content: "cupSize:${cupSize1},age:${age1}"
-
