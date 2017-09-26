@@ -1,4 +1,4 @@
-package com.zl;
+package com.imooc.girl;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

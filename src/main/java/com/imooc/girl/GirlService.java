@@ -1,4 +1,4 @@
-package com.zl;
+package com.imooc.girl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

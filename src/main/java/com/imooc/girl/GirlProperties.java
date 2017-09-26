@@ -1,4 +1,4 @@
-package com.zl;
+package com.imooc.girl;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
