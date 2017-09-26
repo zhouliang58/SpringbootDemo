@@ -1,5 +1,7 @@
-package com.imooc.girl;
+package com.imooc.controller;
 
+
+import com.imooc.properties.GirlProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ui.Model;
@@ -8,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by zhouliang on 2017-09-22.
+ * Created by zhouliang
+ * on 2017-09-22.
  */
 @RestController
 public class HelloController {

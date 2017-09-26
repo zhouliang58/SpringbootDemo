@@ -1,11 +1,14 @@
-package com.imooc.girl;
+package com.imooc.repository;
 
+
+import com.imooc.domain.Girl;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
 /**
- * Created by zhouliang on 2017-09-26.
+ * Created by zhouliang
+ * 2017-09-26 16:09
  */
 public interface GirlRepository extends JpaRepository<Girl,Integer> {
 

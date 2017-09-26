@@ -1,12 +1,17 @@
-package com.imooc.girl;
+package com.imooc.controller;
 
+
+import com.imooc.domain.Girl;
+import com.imooc.repository.GirlRepository;
+import com.imooc.service.GirlService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 /**
- * Created by zhouliang on 2017-09-26.
+ * Created by zhouliang
+ * on 2017-09-26.
  */
 @RestController
 public class GirlController {
@@ -63,8 +68,15 @@ public class GirlController {
         return girlRepository.findByAge(age);
     }
 
+    //同时插入两个女生
     @PostMapping(value = "/girls/two")
     public void girlAddTwo(){
         girlService.insertTwo();
+    }
+
+    //测试异常处理
+    @GetMapping(value = "girls/getAge/{id}")
+    public void getAge(@PathVariable("id") Integer id) throws Exception{
+        girlService.getAge(id);
     }
 }

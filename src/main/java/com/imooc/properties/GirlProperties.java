@@ -1,10 +1,11 @@
-package com.imooc.girl;
+package com.imooc.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by zhouliang on 2017-09-22.
+ * Created by zhouliang
+ * on 2017-09-22.
  */
 
 @Component

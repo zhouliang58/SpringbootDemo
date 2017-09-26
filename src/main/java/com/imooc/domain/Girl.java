@@ -1,11 +1,12 @@
-package com.imooc.girl;
+package com.imooc.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
- * Created by zhouliang on 2017-09-26.
+ * Created by zhouliang
+ * on 2017-09-26.
  */
 @Entity
 public class Girl {
@@ -41,5 +42,14 @@ public class Girl {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Girl{" +
+                "id=" + id +
+                ", cupSize='" + cupSize + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
